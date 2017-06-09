@@ -35,3 +35,5 @@ And then simply use the following code to open the chat and pass custom paramete
     
     [Userbot OpenChatWithKey:@"YourKey"];
 ```
+___
+![N|Userbot](https://image.ibb.co/gBCMSa/Simulator_Screen_Shot_09_giu_2017_11_14_36.png)
