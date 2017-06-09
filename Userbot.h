@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import <UIKit/UIKit.h>
 @interface Userbot : NSObject
 
 
@@ -31,8 +31,18 @@
 //Url dell'immagine del profilo dell'utente (opzionale)
 @property (class) NSString *ProfilePic;
 
+//Url dell'immagine del profilo dell'utente (opzionale)
+@property (class) UIColor *BaseColor;
+
 
 //Apri la chat di Userbot con la key dell'account (obbligatoria)
 +(void)OpenChatWithKey:(NSString *)keyAccount;
+
++ (void)setUserID:(NSString *)newString;
++ (void)setUserName:(NSString *)newString;
++ (void)setUserEmail:(NSString *)newString;
++ (void)setUserPhone:(NSString *)newString;
++ (void)setProfilePic:(NSString *)newString;
++ (void)setBaseColor:(UIColor *)newColor;
 
 @end
